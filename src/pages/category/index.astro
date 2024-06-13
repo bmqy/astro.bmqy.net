@@ -1,0 +1,21 @@
+---
+import CategoryList from '@/components/CategoryList.astro'
+import Highlight from '@/components/Highlight.astro'
+import { getAllCategories } from '@/utils/content'
+import PageLayout from '@/layouts/PageLayout.astro'
+
+const allCategories = await getAllCategories()
+---
+
+<PageLayout title="分类">
+  <div class="max-w-[800px] mx-auto px-4 py-16">
+    <header class="space-y-4 mb-8">
+      <h1 class="text-4xl font-bold">
+        <Highlight>分类</Highlight>
+      </h1>
+      <p>共有 {allCategories.length} 个分类。</p>
+    </header>
+
+    <CategoryList categories={allCategories} />
+  </div>
+</PageLayout>

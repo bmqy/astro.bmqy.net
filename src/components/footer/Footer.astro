@@ -1,0 +1,64 @@
+---
+import { ThemeSwitch } from './ThemeSwitch'
+import { author, footer } from '@/config.json'
+import { getAllPostsWordCount } from '@/utils/content'
+import { RunningDays } from './RunningDays'
+import Link from './Link.astro'
+
+const sinceYear = new Date(footer.startTime).getFullYear()
+const thisYear = new Date().getFullYear()
+const copyDate = sinceYear === thisYear ? thisYear : `${sinceYear} - ${thisYear}`
+
+const wordCount = await getAllPostsWordCount()
+
+const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
+---
+
+<footer class="relative z-1 py-8 px-4 md:px-8 border-t border-primary text-secondary text-sm">
+  <div class="text-center space-y-2">
+    <div>
+      Powered by
+      <Link href="https://astro.build/">Astro</Link>
+      & Designed by
+      <Link href="https://github.com/lxchapu/astro-gyoza">Gyoza</Link>
+      & 魔改
+      <Link href="https://github.com/bmqy/astro.bmqy.net">bmqy</Link>
+    </div>
+    <div class="space-x-1">
+      <div class="notion-info">
+        由
+      <Link href="https://github.com/LetTTGACO/elog">Elog</Link>
+      &
+      <Link href="https://www.notion.so/">Notion</Link>
+        提供数据加持
+      </div>
+      <div class="cps-info">
+        <Link href="https://curl.qcloud.com/cbs3ZjSF">由腾讯云提供空间支持</Link>
+          |
+        <Link href="https://curl.qcloud.com/PMQKkO23">由腾讯云提供云存储加速服务</Link>
+      </div>
+    </div>
+    <div class="space-x-1">
+      <span>&copy;{copyDate} <svg class="fill-red-500" style="display: inline-block;" viewBox="0 0 1024 1024" width="14" height="14"><path d="M700.856275 155.542542c-74.768891 0-144.295384 72.696696-190.046381 127.260405C465.073224 228.226958 395.563104 155.542542 320.754305 155.542542c-134.789892 0-244.443291 105.780185-244.443291 235.799424 0 77.56968 39.277562 131.98808 70.844511 175.712931 91.752704 126.998439 322.464249 285.038872 332.234777 291.701618 9.410324 6.414083 20.424168 9.629311 31.401174 9.629311 11.005658 0 21.998013-3.215228 31.397081-9.629311 9.782807-6.662747 240.514819-164.703179 332.23887-291.701618 31.586392-43.723827 70.873164-98.143251 70.873164-175.712931C945.299567 261.321704 835.645145 155.542542 700.856275 155.542542L700.856275 155.542542zM700.856275 155.542542"></path></svg> <Link href="/">{author.name}</Link>.</span>
+      <Link href="/feed.xml">
+        <i class="iconfont icon-rss"></i>
+        <span>RSS</span>
+      </Link>
+      <Link href="/sitemap-index.xml">
+        <i class="iconfont icon-map"></i>
+        <span>站点地图</span>
+      </Link>
+    </div>
+    <div>
+      <RunningDays client:only="react" />
+      <span class="select-none opacity-50">|</span>
+      <span>总字数 {wordCountStr} 字</span>
+    </div>
+    <div class="afr-info">
+      <span>为了更好地浏览本网站，您可以屏蔽本站广告^_^</span>
+    </div>
+  </div>
+  <div class="mt-4 flex justify-center">
+    <ThemeSwitch client:only="react" />
+  </div>
+</footer>

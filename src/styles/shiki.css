@@ -1,0 +1,10 @@
+.shiki,
+.shiki span {
+  color: var(--shiki-light);
+  white-space: pre-line;
+}
+
+[data-theme='dark'] .shiki,
+[data-theme='dark'] .shiki span {
+  color: var(--shiki-dark);
+}
