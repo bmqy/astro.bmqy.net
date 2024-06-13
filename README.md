@@ -42,7 +42,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-06-07 16:50:04更新)
+## 博客目录(2024-06-13 21:12:59更新)
+
+[继续折腾astro](https://www.bmqy.net/2670.html)
 
 [serv00部署FreshRSS](https://www.bmqy.net/2667.html)
 
