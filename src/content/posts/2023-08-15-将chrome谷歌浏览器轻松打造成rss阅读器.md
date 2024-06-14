@@ -5,6 +5,9 @@ catalog: []
 status: 已发布
 recommend: ''
 summary: 经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。
+ID:
+  prefix: null
+  number: 595
 tags:
   - chrome扩展
   - rss
@@ -12,12 +15,12 @@ tags:
   - Inoreader
   - rss阅读器
   - Stylus
-cover: ''
 abbrlink: 2656
+cover: ''
 urlname: 2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器
 title: 将chrome谷歌浏览器轻松打造成rss阅读器
 category: 燕衔春泥
-lastMod: '2023-08-29T01:10:00.000Z'
+lastMod: '2024-06-14T03:36:00.000Z'
 ---
 
 # 前情提要
@@ -113,14 +116,25 @@ lastMod: '2023-08-29T01:10:00.000Z'
 	 ★ Beautifully format RSS feeds directly into your browser
 
 
+## [Feedly](https://feedly.com/)
+
+
+目前已转为`feedly`，相比于`inoreader`的直接缺点，就是不能滚动出屏幕外标记已读。另外，不能导入`inoreader`的稍后阅读记录，有需要的慎重。
+
+
+优点是可以正常导入`52pojie`的`rss`地址，以及支持`linux.do`的`rss`地址，至少目前是不会抓取失败。
+
+
+还可以配合[Feedly-Notifier](https://olsh.me/Feedly-Notifier/)浏览器扩展、以及下面的`Stylus`用户样式使用
+
+
 ### 配合Chrome扩展：[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
-
-安装[InoReader RSS阅读优化](https://userstyles.world/style/11774/inoreader-rss)用户样式后，效果如图：
-
+- 安装[InoReader RSS阅读优化](https://userstyles.world/style/11774/inoreader-rss)用户样式后，效果如图：
 
 ![QQ%E6%88%AA%E5%9B%BE20230829090506.jpg](https://image.bmqy.net/upload/QQ%E6%88%AA%E5%9B%BE20230829090506.jpg)
 
+- 安装[feedly.com阅读优化](https://userstyles.world/style/16741/feedly-com)用户样式，效果如上两行展示
 
 ## [**RSS阅读器 - RSS Reader**](https://chrome.google.com/webstore/detail/rss-reader/bfdoopgbjcacghflbbdikollnphobemo)
 

@@ -240,7 +240,7 @@
     {
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "doc_id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
-      "updated": 1693271400000,
+      "updated": 1718336160000,
       "properties": {
         "date": "2023-08-15T05:17:00.000Z",
         "sort": "",
@@ -248,6 +248,10 @@
         "status": "已发布",
         "recommend": "",
         "summary": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
+        "ID": {
+          "prefix": null,
+          "number": 595
+        },
         "tags": [
           "chrome扩展",
           "rss",
@@ -256,12 +260,12 @@
           "rss阅读器",
           "Stylus"
         ],
-        "cover": "",
         "abbrlink": 2656,
+        "cover": "",
         "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
         "title": "将chrome谷歌浏览器轻松打造成rss阅读器",
         "category": "燕衔春泥",
-        "lastMod": "2023-08-29T01:10:00.000Z"
+        "lastMod": "2024-06-14T03:36:00.000Z"
       },
       "realName": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
       "relativePath": "/2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器.md",
@@ -4800,12 +4804,20 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-06-13T13:06:00.000Z",
+        "date": {
+          "type": "string",
+          "string": "2024-06-13 13:06"
+        },
+        "updateTime": "2024-06-13T13:39:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2024-06-13T13:06:00.000Z",
         "recommend": "",
-        "summary": "hexo用了很长时间了，听说又有了新的基于markdown文档的静态博客：astro。",
+        "_updated": "",
+        "excerpt": "hexo用了很长时间了，听说又有了新的基于markdown文档的静态博客：astro。",
+        "summary": "",
+        "_date": "",
         "ID": {
           "prefix": null,
           "number": 661
@@ -4818,12 +4830,21 @@
           "adsense",
           "markdown"
         ],
-        "abbrlink": 2670,
+        "abbrlink": {
+          "type": "number",
+          "number": 2670
+        },
+        "updated": {
+          "type": "string",
+          "string": "2024-06-13 13:39"
+        },
         "cover": "",
-        "urlname": "2024-06-13-继续折腾astro",
-        "title": "继续折腾astro",
-        "category": "燕坊清作",
-        "lastMod": "2024-06-13T13:39:00.000Z"
+        "categories": [
+          "燕坊清作"
+        ],
+        "_abbrlink": "",
+        "urlname": "6425ad3a-447c-4eae-b1d4-4a0c58fa1479",
+        "title": "继续折腾astro"
       },
       "url": "https://www.notion.so/astro-6425ad3a447c4eaeb1d44a0c58fa1479",
       "public_url": null
@@ -5559,7 +5580,7 @@
       "object": "page",
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "created_time": "2023-08-15T05:17:00.000Z",
-      "last_edited_time": "2023-08-29T01:10:00.000Z",
+      "last_edited_time": "2024-06-14T03:36:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -5577,20 +5598,12 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2023-08-15 05:17"
-        },
-        "updateTime": "2023-08-29T01:10:00.000Z",
+        "date": "2023-08-15T05:17:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-08-15T05:17:00.000Z",
         "recommend": "",
-        "_updated": "",
-        "excerpt": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
-        "summary": "",
-        "_date": "",
+        "summary": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
         "ID": {
           "prefix": null,
           "number": 595
@@ -5603,21 +5616,12 @@
           "rss阅读器",
           "Stylus"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2656
-        },
-        "updated": {
-          "type": "string",
-          "string": "2023-08-29 01:10"
-        },
+        "abbrlink": 2656,
         "cover": "",
-        "categories": [
-          "燕衔春泥"
-        ],
-        "_abbrlink": 2656,
-        "urlname": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
-        "title": "将chrome谷歌浏览器轻松打造成rss阅读器"
+        "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
+        "title": "将chrome谷歌浏览器轻松打造成rss阅读器",
+        "category": "燕衔春泥",
+        "lastMod": "2024-06-14T03:36:00.000Z"
       },
       "url": "https://www.notion.so/chrome-rss-ad0bdbe68fcc41a3bf99a1b9fbd1850a",
       "public_url": null
