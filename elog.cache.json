@@ -4787,14 +4787,14 @@
     {
       "id": "abf6ae7a-a81e-4269-b581-83a92c87b7e9",
       "doc_id": "abf6ae7a-a81e-4269-b581-83a92c87b7e9",
-      "updated": 1718705340000,
+      "updated": 1718705940000,
       "properties": {
         "date": "2024-06-18T10:06:00.000Z",
         "sort": "",
         "catalog": [],
-        "status": "正在写",
+        "status": "已发布",
         "recommend": "",
-        "summary": "为哪吒面板增加视频背景",
+        "summary": "为哪吒面板增加视频背景，主打的就是一个为了好看。",
         "ID": {
           "prefix": null,
           "number": 662
@@ -4803,14 +4803,15 @@
           "哪吒面板",
           "哪吒",
           "主题美化",
-          "美化"
+          "美化",
+          "视频背景"
         ],
         "abbrlink": 2671,
         "cover": "",
         "urlname": "2024-06-18-为哪吒面板增加视频背景",
         "title": "为哪吒面板增加视频背景",
         "category": "燕坊清作",
-        "lastMod": "2024-06-18T10:09:00.000Z"
+        "lastMod": "2024-06-18T10:19:00.000Z"
       },
       "realName": "2024-06-18-为哪吒面板增加视频背景",
       "relativePath": "/2024-06-18-为哪吒面板增加视频背景.md",
@@ -4822,7 +4823,7 @@
       "object": "page",
       "id": "abf6ae7a-a81e-4269-b581-83a92c87b7e9",
       "created_time": "2024-06-18T10:06:00.000Z",
-      "last_edited_time": "2024-06-18T10:09:00.000Z",
+      "last_edited_time": "2024-06-18T10:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -4843,9 +4844,9 @@
         "date": "2024-06-18T10:06:00.000Z",
         "sort": "",
         "catalog": [],
-        "status": "正在写",
+        "status": "已发布",
         "recommend": "",
-        "summary": "为哪吒面板增加视频背景",
+        "summary": "为哪吒面板增加视频背景，主打的就是一个为了好看。",
         "ID": {
           "prefix": null,
           "number": 662
@@ -4854,14 +4855,15 @@
           "哪吒面板",
           "哪吒",
           "主题美化",
-          "美化"
+          "美化",
+          "视频背景"
         ],
         "abbrlink": 2671,
         "cover": "",
         "urlname": "2024-06-18-为哪吒面板增加视频背景",
         "title": "为哪吒面板增加视频背景",
         "category": "燕坊清作",
-        "lastMod": "2024-06-18T10:09:00.000Z"
+        "lastMod": "2024-06-18T10:19:00.000Z"
       },
       "url": "https://www.notion.so/abf6ae7aa81e4269b58183a92c87b7e9",
       "public_url": null
@@ -5084,12 +5086,20 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-05-13T03:16:00.000Z",
+        "date": {
+          "type": "string",
+          "string": "2024-05-13 03:16"
+        },
+        "updateTime": "2024-06-18T10:05:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2024-05-13T03:16:00.000Z",
         "recommend": "",
-        "summary": "为了方便，为了好看，继续了哪吒面板的终极进化之路：VPS橱窗。我觉得可以叫做VPS小商城了，貌似该有的都有了，没有的以后可能还会有。。",
+        "_updated": "",
+        "excerpt": "为了方便，为了好看，继续了哪吒面板的终极进化之路：VPS橱窗。我觉得可以叫做VPS小商城了，貌似该有的都有了，没有的以后可能还会有。。",
+        "summary": "",
+        "_date": "",
         "ID": {
           "prefix": null,
           "number": 619
@@ -5103,12 +5113,21 @@
           "剩余价值",
           "ServerStatus"
         ],
-        "abbrlink": 2665,
+        "abbrlink": {
+          "type": "number",
+          "number": 2665
+        },
+        "updated": {
+          "type": "string",
+          "string": "2024-06-18 10:05"
+        },
         "cover": "",
-        "urlname": "2024-05-13-哪吒面板终极进化之VPS橱窗",
-        "title": "哪吒面板终极进化之VPS橱窗",
-        "category": "燕坊清作",
-        "lastMod": "2024-06-18T10:05:00.000Z"
+        "categories": [
+          "燕坊清作"
+        ],
+        "_abbrlink": 2665,
+        "urlname": "c3980a84-f928-460d-9de7-19ca65b65a33",
+        "title": "哪吒面板终极进化之VPS橱窗"
       },
       "url": "https://www.notion.so/VPS-c3980a84f928460d9de719ca65b65a33",
       "public_url": null
