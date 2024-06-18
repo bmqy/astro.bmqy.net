@@ -42,7 +42,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-06-14 17:37:03更新)
+## 博客目录(2024-06-18 18:12:05更新)
+
+[为哪吒面板增加视频背景](https://www.bmqy.net/2671.html)
 
 [继续折腾astro](https://www.bmqy.net/2670.html)
 
