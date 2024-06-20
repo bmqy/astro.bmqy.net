@@ -42,6 +42,7 @@ const config: Config = {
         secondary: 'rgb(var(--color-bg-secondary))',
       },
       borderColor: {
+        accent: 'rgb(var(--color-accent) / <alpha-value>)',
         primary: 'rgb(var(--color-border-primary))',
       },
       minHeight: {

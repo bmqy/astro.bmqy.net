@@ -27,7 +27,7 @@
 }
 
 .markdown a {
-  @apply font-normal text-accent hover:underline underline-offset-2;
+  @apply font-normal text-accent border-b border-accent border-dashed;
 }
 
 .markdown a + .icon-external-link {
@@ -51,7 +51,7 @@
 }
 
 .markdown :not(pre) > code {
-  @apply px-2 py-1 rounded bg-secondary text-sm font-semibold;
+  @apply px-2 py-1 rounded bg-secondary text-accent text-sm;
 }
 
 .markdown .code-block {
