@@ -44,7 +44,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-06-20 12:46:14更新)
+## 博客目录(2024-06-27 17:28:24更新)
+
+[windows服务器安装mysql踩坑指北](https://www.bmqy.net/2672.html)
 
 [为哪吒面板增加视频背景](https://www.bmqy.net/2671.html)
 
