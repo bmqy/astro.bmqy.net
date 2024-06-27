@@ -4816,9 +4816,87 @@
       "realName": "2024-06-18-为哪吒面板增加视频背景",
       "relativePath": "/2024-06-18-为哪吒面板增加视频背景.md",
       "docPath": "/src/content/posts"
+    },
+    {
+      "id": "0bd527dd-2f83-43ae-b55f-470a06c1cbbb",
+      "doc_id": "0bd527dd-2f83-43ae-b55f-470a06c1cbbb",
+      "updated": 1719480360000,
+      "properties": {
+        "date": "2024-06-27T09:24:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "正在写",
+        "recommend": "",
+        "summary": "",
+        "ID": {
+          "prefix": null,
+          "number": 663
+        },
+        "tags": [
+          "windows",
+          "服务器",
+          "mysql"
+        ],
+        "abbrlink": 2672,
+        "cover": "",
+        "urlname": "2024-06-27-windows服务器安装mysql踩坑指北",
+        "title": "windows服务器安装mysql踩坑指北",
+        "category": "清学小记",
+        "lastMod": "2024-06-27T09:26:00.000Z"
+      },
+      "realName": "2024-06-27-windows服务器安装mysql踩坑指北",
+      "relativePath": "/2024-06-27-windows服务器安装mysql踩坑指北.md",
+      "docPath": "/src/content/posts"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "0bd527dd-2f83-43ae-b55f-470a06c1cbbb",
+      "created_time": "2024-06-27T09:24:00.000Z",
+      "last_edited_time": "2024-06-27T09:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "d8a50f43-ec09-4b49-9082-44b0f6627cc3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "date": "2024-06-27T09:24:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "正在写",
+        "recommend": "",
+        "summary": "",
+        "ID": {
+          "prefix": null,
+          "number": 663
+        },
+        "tags": [
+          "windows",
+          "服务器",
+          "mysql"
+        ],
+        "abbrlink": 2672,
+        "cover": "",
+        "urlname": "2024-06-27-windows服务器安装mysql踩坑指北",
+        "title": "windows服务器安装mysql踩坑指北",
+        "category": "清学小记",
+        "lastMod": "2024-06-27T09:26:00.000Z"
+      },
+      "url": "https://www.notion.so/windows-mysql-0bd527dd2f8343aeb55f470a06c1cbbb",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "abf6ae7a-a81e-4269-b581-83a92c87b7e9",
@@ -4907,12 +4985,20 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-06-13T13:06:00.000Z",
+        "date": {
+          "type": "string",
+          "string": "2024-06-13 13:06"
+        },
+        "updateTime": "2024-06-20T04:41:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2024-06-13T13:06:00.000Z",
         "recommend": "",
-        "summary": "hexo用了很长时间了，听说又有了新的基于markdown文档的静态博客：astro。",
+        "_updated": "",
+        "excerpt": "hexo用了很长时间了，听说又有了新的基于markdown文档的静态博客：astro。",
+        "summary": "",
+        "_date": "",
         "ID": {
           "prefix": null,
           "number": 661
@@ -4925,12 +5011,21 @@
           "adsense",
           "markdown"
         ],
-        "abbrlink": 2670,
+        "abbrlink": {
+          "type": "number",
+          "number": 2670
+        },
+        "updated": {
+          "type": "string",
+          "string": "2024-06-20 04:41"
+        },
         "cover": "",
-        "urlname": "2024-06-13-继续折腾astro",
-        "title": "继续折腾astro",
-        "category": "燕坊清作",
-        "lastMod": "2024-06-20T04:41:00.000Z"
+        "categories": [
+          "燕坊清作"
+        ],
+        "_abbrlink": "",
+        "urlname": "6425ad3a-447c-4eae-b1d4-4a0c58fa1479",
+        "title": "继续折腾astro"
       },
       "url": "https://www.notion.so/astro-6425ad3a447c4eaeb1d44a0c58fa1479",
       "public_url": null
