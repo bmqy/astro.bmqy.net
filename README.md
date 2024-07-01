@@ -44,7 +44,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-06-27 18:22:01更新)
+## 博客目录(2024-07-01 14:44:06更新)
 
 [windows服务器安装mysql踩坑指北](https://www.bmqy.net/2672.html)
 
