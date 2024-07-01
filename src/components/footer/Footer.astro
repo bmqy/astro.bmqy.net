@@ -3,6 +3,7 @@ import { ThemeSwitch } from './ThemeSwitch'
 import { site, author, footer } from '@/config.json'
 import { getAllPostsWordCount } from '@/utils/content'
 import { RunningDays } from './RunningDays'
+import DeleteScriptAttr from './DeleteScriptAttr.astro'
 import Link from './Link.astro'
 
 const sinceYear = new Date(footer.startTime).getFullYear()
@@ -105,3 +106,4 @@ const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
     </div>
   </div>
 </footer>
+<DeleteScriptAttr />
