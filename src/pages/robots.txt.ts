@@ -5,6 +5,7 @@ User-agent: *
 Allow: /
 
 Disallow: /_astro/
+Disallow: /posts/
 Disallow: /fonts/
 Disallow: /api/
 
