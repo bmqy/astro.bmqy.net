@@ -993,7 +993,7 @@
     {
       "id": "3c8b67a2-55ba-4c65-8382-0152211295f1",
       "doc_id": "3c8b67a2-55ba-4c65-8382-0152211295f1",
-      "updated": 1707522780000,
+      "updated": 1720567440000,
       "properties": {
         "date": "2020-12-16T00:00:00.000Z",
         "sort": "",
@@ -1001,6 +1001,10 @@
         "status": "已发布",
         "recommend": 1,
         "summary": "ios14.3+支持的自动更换壁纸应用，可配合捷径自动化，实现自动更换壁纸。\n推荐日出、日落时执行本捷径。",
+        "ID": {
+          "prefix": null,
+          "number": 526
+        },
         "tags": [
           "ios捷径",
           "shortcuts",
@@ -1009,12 +1013,12 @@
           "捷径自动化",
           "自动更换壁纸"
         ],
-        "cover": "",
         "abbrlink": 2312,
+        "cover": "",
         "urlname": "2020-12-16-【原创】ios捷径：自动壁纸",
         "title": "【原创】ios捷径：自动壁纸",
         "category": "燕坊清作",
-        "lastMod": "2024-02-10T07:50:00.000Z"
+        "lastMod": "2024-07-09T23:24:00.000Z"
       },
       "realName": "2020-12-16-【原创】ios捷径：自动壁纸",
       "relativePath": "/2020-12-16-【原创】ios捷径：自动壁纸.md",
@@ -4872,12 +4876,20 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-06-27T09:24:00.000Z",
+        "date": {
+          "type": "string",
+          "string": "2024-06-27 09:24"
+        },
+        "updateTime": "2024-06-27T10:17:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2024-06-27T09:24:00.000Z",
         "recommend": "",
-        "summary": "记录下windows服务器安装mysql的踩坑大全，不全的欢迎补充。",
+        "_updated": "",
+        "excerpt": "记录下windows服务器安装mysql的踩坑大全，不全的欢迎补充。",
+        "summary": "",
+        "_date": "",
         "ID": {
           "prefix": null,
           "number": 663
@@ -4887,12 +4899,21 @@
           "服务器",
           "mysql"
         ],
-        "abbrlink": 2672,
+        "abbrlink": {
+          "type": "number",
+          "number": 2672
+        },
+        "updated": {
+          "type": "string",
+          "string": "2024-06-27 10:17"
+        },
         "cover": "",
-        "urlname": "2024-06-27-windows服务器安装mysql踩坑指北",
-        "title": "windows服务器安装mysql踩坑指北",
-        "category": "清学小记",
-        "lastMod": "2024-06-27T10:17:00.000Z"
+        "categories": [
+          "清学小记"
+        ],
+        "_abbrlink": "",
+        "urlname": "0bd527dd-2f83-43ae-b55f-470a06c1cbbb",
+        "title": "windows服务器安装mysql踩坑指北"
       },
       "url": "https://www.notion.so/windows-mysql-0bd527dd2f8343aeb55f470a06c1cbbb",
       "public_url": null
@@ -8591,7 +8612,7 @@
       "object": "page",
       "id": "3c8b67a2-55ba-4c65-8382-0152211295f1",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2024-02-09T23:53:00.000Z",
+      "last_edited_time": "2024-07-09T23:24:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -8609,20 +8630,12 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2020-12-16 00:00"
-        },
-        "updateTime": "2024-02-09T23:53:00.000Z",
+        "date": "2020-12-16T00:00:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": 1,
-        "_updated": "2024-02-10 07:50:00",
-        "excerpt": "ios14.3+支持的自动更换壁纸应用，可配合捷径自动化，实现自动更换壁纸。\n推荐日出、日落时执行本捷径。",
-        "summary": "",
-        "_date": "2020-12-16 00:00:00",
+        "summary": "ios14.3+支持的自动更换壁纸应用，可配合捷径自动化，实现自动更换壁纸。\n推荐日出、日落时执行本捷径。",
         "ID": {
           "prefix": null,
           "number": 526
@@ -8635,21 +8648,12 @@
           "捷径自动化",
           "自动更换壁纸"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2312
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-02-10 07:50"
-        },
+        "abbrlink": 2312,
         "cover": "",
-        "categories": [
-          "燕坊清作"
-        ],
-        "_abbrlink": 2312,
-        "urlname": "3c8b67a2-55ba-4c65-8382-0152211295f1",
-        "title": "【原创】ios捷径：自动壁纸"
+        "urlname": "2020-12-16-【原创】ios捷径：自动壁纸",
+        "title": "【原创】ios捷径：自动壁纸",
+        "category": "燕坊清作",
+        "lastMod": "2024-07-09T23:24:00.000Z"
       },
       "url": "https://www.notion.so/ios-3c8b67a255ba4c6583820152211295f1",
       "public_url": null
