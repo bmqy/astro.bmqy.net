@@ -20,22 +20,22 @@ cover: ''
 urlname: 2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器
 title: 将chrome谷歌浏览器轻松打造成rss阅读器
 category: 燕衔春泥
-lastMod: '2024-06-14T03:36:00.000Z'
+lastMod: '2024-07-10T03:53:00.000Z'
 ---
 
-# 前情提要
+## 前情提要
 
 
 经常用`chrome`浏览器、又习惯使用`rss`阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将`chrome`谷歌浏览器打造成`rss`阅读器。
 
 
-# 扩展介绍
+## 扩展介绍
 
 
 习惯使用`rss`阅读，又喜欢使用`chrome`谷歌浏览器的朋友们，强烈推荐这两款`chrome`扩展：
 
 
-## [**Feedbro**](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa?hl=zh-CN)
+### [**Feedbro**](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa?hl=zh-CN)
 
 
 > Advanced Feed Reader - 阅读新闻和博客或任何 RSS/Atom/RDF 来源。
@@ -77,7 +77,7 @@ lastMod: '2024-06-14T03:36:00.000Z'
 	- 支持离线阅读
 	- Discord & Slack 支持（规则操作）
 
-## [**新标签页修改器**](https://chrome.google.com/webstore/detail/newtab-adapter/cglpcedifkgalfdklahhcchnjepcckfn/related?hl=zh-CN)
+### [**新标签页修改器**](https://chrome.google.com/webstore/detail/newtab-adapter/cglpcedifkgalfdklahhcchnjepcckfn/related?hl=zh-CN)
 
 
 > 接管浏览器的新标签页设置，转为打开一个可以随意修改的网址  
@@ -90,13 +90,13 @@ lastMod: '2024-06-14T03:36:00.000Z'
 	此外本扩展还提供了 Vimium C 的 vomnibar.html 的副本，您可以将 Vimium C 的“定制搜索框页面”选项设置为 chrome-extension://cglpcedifkgalfdklahhcchnjepcckfn/vomnibar.html ，这将有助于减少 Vimium C 自身的内存占用
 
 
-# 可选RSS阅读器
+## 可选RSS阅读器
 
 
 除了`FeedBro`，另推荐以下`RSS`阅读器，作为可选浏览器端阅读工具：
 
 
-## [**RSS Reader Extension (by Inoreader)**](https://chrome.google.com/webstore/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah)
+### [**RSS Reader Extension (by Inoreader)**](https://chrome.google.com/webstore/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah)
 
 
 `Inoreader`官方出品`chrome`扩展
@@ -116,7 +116,7 @@ lastMod: '2024-06-14T03:36:00.000Z'
 	 ★ Beautifully format RSS feeds directly into your browser
 
 
-## [Feedly](https://feedly.com/)
+### [Feedly](https://feedly.com/)
 
 
 目前已转为`feedly`，相比于`inoreader`的直接缺点，就是不能滚动出屏幕外标记已读。另外，不能导入`inoreader`的稍后阅读记录，有需要的慎重。
@@ -136,7 +136,7 @@ lastMod: '2024-06-14T03:36:00.000Z'
 
 - 安装[feedly.com阅读优化](https://userstyles.world/style/16741/feedly-com)用户样式，效果如上两行展示
 
-## [**RSS阅读器 - RSS Reader**](https://chrome.google.com/webstore/detail/rss-reader/bfdoopgbjcacghflbbdikollnphobemo)
+### [**RSS阅读器 - RSS Reader**](https://chrome.google.com/webstore/detail/rss-reader/bfdoopgbjcacghflbbdikollnphobemo)
 
 
 > 可以轻松地订阅多个网站的更新，并在一个应用程序中查看所有更新的摘要和标题。  
@@ -147,13 +147,13 @@ lastMod: '2024-06-14T03:36:00.000Z'
 > 4. AI 摘要
 
 
-# 食用方法
+## 食用方法
 
 
 安装好以上两款扩展后，分别对两款扩展进行以下设置，完成后即可每次开启新标签页都会打开`Feedbro`以尽情浏览`rss`文章。
 
 
-## **Feedbro**
+### **Feedbro**
 
 
 进入设置页开启以下选项：
@@ -162,7 +162,7 @@ lastMod: '2024-06-14T03:36:00.000Z'
 - [ ] 点亮所有文章视图顶部右侧的`仅显示未读文章`按钮
 - [ ] 打开阅读器视图时刷新文章列表（此项可按需开启）
 
-## **新标签页修改器**
+### **新标签页修改器**
 
 
 进入设置页开启以下选项：
@@ -171,13 +171,13 @@ lastMod: '2024-06-14T03:36:00.000Z'
 新的网址输入框，填入：`chrome-extension://mefgmmbdailogpfhfblcnnjfmnpnmdfa/reader.html`，**亦可填入其它阅读器的阅读地址**
 
 
-## rss订阅源
+### rss订阅源
 
 
 `rss`订阅源推荐[RSSHub](https://github.com/DIYgod/RSSHub)，具体使用、自部署方法可参考官方文档。
 
 
-## 其它
+### 其它
 
 
 如未生效，请自行检查`chrome`浏览器新标签页设置，是否`此设置由“新标签页修改器”控制`
