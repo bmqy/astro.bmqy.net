@@ -20,7 +20,7 @@ cover: ''
 urlname: 2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器
 title: 将chrome谷歌浏览器轻松打造成rss阅读器
 category: 燕衔春泥
-lastMod: '2024-07-11T00:38:00.000Z'
+lastMod: '2024-07-11T00:47:00.000Z'
 ---
 
 ## 前情提要
@@ -132,10 +132,10 @@ lastMod: '2024-07-11T00:38:00.000Z'
 
 - 网页端
 	- 依次点击：`头像`、`设置`、`Mark as read`
-	- 在打开的面板中进行相应设置，已启用自动标记已读功能
+	- 在打开的面板中进行相应设置，以启用自动标记已读功能
 - APP端
 	- 依次点击：`左下角菜单按钮`、`设置`
-	- 找打`Auto-Mark As Read On Scroll`选项，选择`Yes`已开启自动标记已读功能
+	- 找打`Auto-Mark As Read On Scroll`选项，选择`Yes`以开启自动标记已读功能
 
 ### 配合Chrome扩展：[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
