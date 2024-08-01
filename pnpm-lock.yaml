@@ -126,9 +126,6 @@ importers:
       '@inquirer/prompts':
         specifier: ^5.0.2
         version: 5.0.5
-      ftp-deploy:
-        specifier: ^2.4.3
-        version: 2.4.7(promise-ftp-common@1.1.5)
       lint-staged:
         specifier: ^15.2.2
         version: 15.2.5
@@ -865,10 +862,6 @@ packages:
 
   '@halo-dev/api-client@2.10.0':
     resolution: {integrity: sha512-c1fgp+xzE1gQ7O36miWU2Oz+Uh1G4Hqs3clxLSxBD7vuvktgndZGZblNDi5morHB9UkiauAIQP0+PH9L9jwBfA==}
-
-  '@icetee/ftp@0.3.15':
-    resolution: {integrity: sha512-RxSa9VjcDWgWCYsaLdZItdCnJj7p4LxggaEk+Y3MP0dHKoxez8ioG07DVekVbZZqccsrL+oPB/N9AzVPxj4blg==}
-    engines: {node: '>=0.8.0'}
 
   '@img/sharp-darwin-arm64@0.33.4':
     resolution: {integrity: sha512-p0suNqXufJs9t3RqLBO6vvrgr5OhgbWp76s5gTRvdmxmuv9E1rcaqGUsl3l4mKVmXPkTkTErXediAui4x+8PSA==}
@@ -1725,9 +1718,6 @@ packages:
   block-stream2@2.1.0:
     resolution: {integrity: sha512-suhjmLI57Ewpmq00qaygS8UgEq2ly2PCItenIyhMqVjo4t4pGzqMvfgJuX8iWTeSDdfSSqS6j38fL4ToNL7Pfg==}
 
-  bluebird@2.11.0:
-    resolution: {integrity: sha512-UfFSr22dmHPQqPP9XWHRhq+gWnHCYguQGkXQlbyPtW5qTnhFWA8/iXg765tH0cAjy7l/zPJ1aBTO0g5XgA7kvQ==}
-
   bowser@1.9.4:
     resolution: {integrity: sha512-9IdMmj2KjigRq6oWhmwv1W36pDuA4STQZ8q6YO9um+x07xgYNCD3Oou+WP/3L1HNz7iqythGet3/p4wvc8AAwQ==}
 
@@ -1750,15 +1740,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  buffer-from@1.1.2:
-    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
-
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
-
-  buildcheck@0.0.6:
-    resolution: {integrity: sha512-8f9ZJCUXyT1M35Jx7MkBgmBMo3oHTTBIPLiY9xyL0pl3T5RwcPEY8cUHr5LBNfu/fk6c2T4DJZuVM/8ZZT2D2A==}
-    engines: {node: '>=10.0.0'}
 
   builtin-status-codes@3.0.0:
     resolution: {integrity: sha512-HpGFw18DgFWlncDfjTa2rcQ4W88O1mC8e8yZ2AvQY5KDaktSTwo+KRf6nHK6FRI5FyRyb/5T6+TSxfP7QyGsmQ==}
@@ -1950,10 +1933,6 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  concat-stream@2.0.0:
-    resolution: {integrity: sha512-MWufYdFw53ccGjCA+Ol7XJYpAlW6/prSMzuPOTRnJGcGzuhLn4Scrz7qf6o8bROZ514ltazcIFJZevcfbo0x7A==}
-    engines: {'0': node >= 6.0}
-
   conf@9.0.2:
     resolution: {integrity: sha512-rLSiilO85qHgaTBIIHQpsv8z+NnVfZq3cKuYNCXN1AOqPzced0GWZEe/A517VldRLyQYXUMyV+vszavE2jSAqw==}
     engines: {node: '>=10'}
@@ -2014,10 +1993,6 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
-
-  cpu-features@0.0.10:
-    resolution: {integrity: sha512-9IkYqtX3YHPCzoVg1Py+o9057a3i0fp7S530UWokCSaFVTc7CwXPRiOjRjBQQ18ZCNafx78YfnG+HALxtVmOGA==}
-    engines: {node: '>=10.0.0'}
 
   crc32@0.2.2:
     resolution: {integrity: sha512-PFZEGbDUeoNbL2GHIEpJRQGheXReDody/9axKTxhXtQqIL443wnNigtVZO9iuCIMPApKZRv7k2xr8euXHqNxQQ==}
@@ -2238,9 +2213,6 @@ packages:
   env-paths@2.2.1:
     resolution: {integrity: sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==}
     engines: {node: '>=6'}
-
-  err-code@2.0.3:
-    resolution: {integrity: sha512-2bmlRpNKBxT/CRmPOlyISQpNj+qSeYvcym/uT0Jx2bMOlKLtSy1ZmLuVxSEKKyor/N5yhvp/ZiG1oE3DEYMSFA==}
 
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
@@ -2480,10 +2452,6 @@ packages:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
-
-  ftp-deploy@2.4.7:
-    resolution: {integrity: sha512-GcXI1B4W25e0H6bMgqJ8enwCZfSnOm9Hc0iDAKuevQVrWBqnfU5C9C23QF5bjrzXRfh3Q8Iewn16UfU71g+7Gw==}
-    engines: {node: '>=12'}
 
   ftp@0.3.10:
     resolution: {integrity: sha512-faFVML1aBx2UoDStmLwv2Wptt4vw5x03xxX172nhA5Y5HBshW5JweqQ2W4xL4dezQTG8inJsuYcpPHHU3X5OTQ==}
@@ -3389,10 +3357,6 @@ packages:
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
-  minimatch@9.0.0:
-    resolution: {integrity: sha512-0jJj8AvgKqWN05mrwuqi8QYKx1WmYSUoKSxu5Qhs9prezTz10sxAHGNZe9J9cqIJzta8DWsleh2KaVaLl6Ru2w==}
-    engines: {node: '>=16 || 14 >=14.17'}
-
   minimatch@9.0.4:
     resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -3441,9 +3405,6 @@ packages:
 
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
-
-  nan@2.20.0:
-    resolution: {integrity: sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==}
 
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
@@ -3781,19 +3742,6 @@ packages:
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
 
-  promise-ftp-common@1.1.5:
-    resolution: {integrity: sha512-a84F/zM2Z0Ry/ht3nXfV6Ze7BISOQlWrct/YObrluJn8qy2LVeeQ+IJ7jD4bkmM0N2xfXYy5nurz4L1KEj+rJg==}
-
-  promise-ftp@1.3.5:
-    resolution: {integrity: sha512-v368jPSqzmjjKDIyggulC+dRFcpAOEX7aFdEWkFYQp8Ao3P2N4Y6XnFFdKgK7PtkylwvGQkZR/65HZuzmq0V7A==}
-    engines: {node: '>=0.11.13'}
-    peerDependencies:
-      promise-ftp-common: ^1.1.5
-
-  promise-retry@2.0.1:
-    resolution: {integrity: sha512-y+WKFlBR8BGXnsNlIHFGPZmyDf3DFMoLhaflAnyZgV6rG6xu+JwesTo2Q9R6XwYmtmwAFCkAk3e35jEdoeh/3g==}
-    engines: {node: '>=10'}
-
   prompts@2.4.2:
     resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
     engines: {node: '>= 6'}
@@ -3906,10 +3854,6 @@ packages:
 
   read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
-
-  read@2.1.0:
-    resolution: {integrity: sha512-bvxi1QLJHcaywCAEsAk4DG3nVoqiY2Csps3qzWalhj5hFqRn1d/OixkFXtLO1PrgHUcAP0FNaSY/5GYNfENFFQ==}
-    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
   readable-stream@1.1.14:
     resolution: {integrity: sha512-+MeVjFf4L44XUkhM1eYbD8fyEsxcV81pqMSR5gblfcLCHfZvbrqy4/qYHE+/R5HoBUT11WV5O08Cr1n3YXkWVQ==}
@@ -4046,10 +3990,6 @@ packages:
 
   retext@8.1.0:
     resolution: {integrity: sha512-N9/Kq7YTn6ZpzfiGW45WfEGJqFf1IM1q8OsRa1CGzIebCJBNCANDRmOrholiDRGKo/We7ofKR4SEvcGAWEMD3Q==}
-
-  retry@0.12.0:
-    resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
-    engines: {node: '>= 4'}
 
   reusify@1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
@@ -4220,14 +4160,6 @@ packages:
 
   sprintf-js@1.1.3:
     resolution: {integrity: sha512-Oo+0REFV59/rz3gfJNKQiBlwfHaSESl1pcGyABQsnnIfWOFt6JNj5gCog2U6MLZ//IGYD+nA8nI+mTShREReaA==}
-
-  ssh2-sftp-client@7.2.3:
-    resolution: {integrity: sha512-Bmq4Uewu3e0XOwu5bnPbiS5KRQYv+dff5H6+85V4GZrPrt0Fkt1nUH+uXanyAkoNxUpzjnAPEEoLdOaBO9c3xw==}
-    engines: {node: '>=10.24.1'}
-
-  ssh2@1.15.0:
-    resolution: {integrity: sha512-C0PHgX4h6lBxYx7hcXwu3QWdh4tg6tZZsTfXcdvc5caW/EMxaB4H9dWsl7qk+F7LAW762hp8VbXOX7x4xUYvEw==}
-    engines: {node: '>=10.16.0'}
 
   sshpk@1.18.0:
     resolution: {integrity: sha512-2p2KJZTSqQ/I3+HX42EpYOa2l3f8Erv8MWKsy2I9uf4wA7yFIkXRffYdsx86y6z4vHtV8u7g+pPlr8/4ouAxsQ==}
@@ -4462,9 +4394,6 @@ packages:
     resolution: {integrity: sha512-CN2l+hWACRiejlnr68vY0/7734Kzu+9+TOslUXbSCQ1ruY9XIHDBSceVXCcHm/oXrdzhtLMMdJEKfemf1yXiZQ==}
     engines: {node: '>=16'}
 
-  typedarray@0.0.6:
-    resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
-
   typesafe-path@0.2.2:
     resolution: {integrity: sha512-OJabfkAg1WLZSqJAJ0Z6Sdt3utnbzr/jh+NAHoyWHJe8CMSy79Gm085094M9nvTPy22KzTVn5Zq5mbapCI/hPA==}
 
@@ -4574,10 +4503,6 @@ packages:
   unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
-
-  upath@2.0.1:
-    resolution: {integrity: sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==}
-    engines: {node: '>=4'}
 
   update-browserslist-db@1.0.16:
     resolution: {integrity: sha512-KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==}
@@ -5894,11 +5819,6 @@ snapshots:
 
   '@halo-dev/api-client@2.10.0': {}
 
-  '@icetee/ftp@0.3.15':
-    dependencies:
-      readable-stream: 1.1.14
-      xregexp: 2.0.0
-
   '@img/sharp-darwin-arm64@0.33.4':
     optionalDependencies:
       '@img/sharp-libvips-darwin-arm64': 1.0.2
@@ -6908,8 +6828,6 @@ snapshots:
     dependencies:
       readable-stream: 3.6.2
 
-  bluebird@2.11.0: {}
-
   bowser@1.9.4: {}
 
   boxen@7.1.1:
@@ -6943,15 +6861,10 @@ snapshots:
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.0)
 
-  buffer-from@1.1.2: {}
-
   buffer@5.7.1:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
-
-  buildcheck@0.0.6:
-    optional: true
 
   builtin-status-codes@3.0.0: {}
 
@@ -7122,13 +7035,6 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  concat-stream@2.0.0:
-    dependencies:
-      buffer-from: 1.1.2
-      inherits: 2.0.4
-      readable-stream: 3.6.2
-      typedarray: 0.0.6
-
   conf@9.0.2:
     dependencies:
       ajv: 7.2.4
@@ -7194,12 +7100,6 @@ snapshots:
       parse-json: 5.2.0
     optionalDependencies:
       typescript: 5.4.5
-
-  cpu-features@0.0.10:
-    dependencies:
-      buildcheck: 0.0.6
-      nan: 2.20.0
-    optional: true
 
   crc32@0.2.2: {}
 
@@ -7370,8 +7270,6 @@ snapshots:
   entities@4.5.0: {}
 
   env-paths@2.2.1: {}
-
-  err-code@2.0.3: {}
 
   error-ex@1.3.2:
     dependencies:
@@ -7647,16 +7545,6 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
-
-  ftp-deploy@2.4.7(promise-ftp-common@1.1.5):
-    dependencies:
-      minimatch: 9.0.0
-      promise-ftp: 1.3.5(promise-ftp-common@1.1.5)
-      read: 2.1.0
-      ssh2-sftp-client: 7.2.3
-      upath: 2.0.1
-    transitivePeerDependencies:
-      - promise-ftp-common
 
   ftp@0.3.10:
     dependencies:
@@ -8843,10 +8731,6 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.11
 
-  minimatch@9.0.0:
-    dependencies:
-      brace-expansion: 2.0.1
-
   minimatch@9.0.4:
     dependencies:
       brace-expansion: 2.0.1
@@ -8882,9 +8766,6 @@ snapshots:
       any-promise: 1.3.0
       object-assign: 4.1.1
       thenify-all: 1.6.0
-
-  nan@2.20.0:
-    optional: true
 
   nanoid@3.3.7: {}
 
@@ -9206,19 +9087,6 @@ snapshots:
 
   process-nextick-args@2.0.1: {}
 
-  promise-ftp-common@1.1.5: {}
-
-  promise-ftp@1.3.5(promise-ftp-common@1.1.5):
-    dependencies:
-      '@icetee/ftp': 0.3.15
-      bluebird: 2.11.0
-      promise-ftp-common: 1.1.5
-
-  promise-retry@2.0.1:
-    dependencies:
-      err-code: 2.0.3
-      retry: 0.12.0
-
   prompts@2.4.2:
     dependencies:
       kleur: 3.0.3
@@ -9353,10 +9221,6 @@ snapshots:
   read-cache@1.0.0:
     dependencies:
       pify: 2.3.0
-
-  read@2.1.0:
-    dependencies:
-      mute-stream: 1.0.0
 
   readable-stream@1.1.14:
     dependencies:
@@ -9589,8 +9453,6 @@ snapshots:
       retext-stringify: 3.1.0
       unified: 10.1.2
 
-  retry@0.12.0: {}
-
   reusify@1.0.4: {}
 
   rfdc@1.3.1: {}
@@ -9788,20 +9650,6 @@ snapshots:
   sprintf-js@1.0.3: {}
 
   sprintf-js@1.1.3: {}
-
-  ssh2-sftp-client@7.2.3:
-    dependencies:
-      concat-stream: 2.0.0
-      promise-retry: 2.0.1
-      ssh2: 1.15.0
-
-  ssh2@1.15.0:
-    dependencies:
-      asn1: 0.2.6
-      bcrypt-pbkdf: 1.0.2
-    optionalDependencies:
-      cpu-features: 0.0.10
-      nan: 2.20.0
 
   sshpk@1.18.0:
     dependencies:
@@ -10051,8 +9899,6 @@ snapshots:
 
   type-fest@4.19.0: {}
 
-  typedarray@0.0.6: {}
-
   typesafe-path@0.2.2: {}
 
   typescript-auto-import-cache@0.3.2:
@@ -10185,8 +10031,6 @@ snapshots:
   universalify@2.0.1: {}
 
   unpipe@1.0.0: {}
-
-  upath@2.0.1: {}
 
   update-browserslist-db@1.0.16(browserslist@4.23.0):
     dependencies:
