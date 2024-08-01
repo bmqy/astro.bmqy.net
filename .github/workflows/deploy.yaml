@@ -44,7 +44,7 @@ jobs:
 
             - name: Install depends
               run: |
-                  npm i pnpm -g && pnpm install
+                  npm i pnpm -g && pnpm install --no-frozen-lockfile
             - name: Elog Sync
               run: |
                   npm run elog:sync
