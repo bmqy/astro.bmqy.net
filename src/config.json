@@ -50,11 +50,11 @@
   "followMe": [
     {
       "name": "公众号",
-      "icon": "https://www.bmqy.net/images/wechat_channel.jpg"
+      "icon": "https://image.bmqy.net/images/wechat_channel.jpg"
     },
     {
       "name": "小程序",
-      "icon": "https://www.bmqy.net/images/gh_aff1932da342_258.jpg"
+      "icon": "https://image.bmqy.net/images/gh_aff1932da342_258.jpg"
     }
   ],
   "restful": {
