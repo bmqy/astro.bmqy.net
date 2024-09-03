@@ -44,7 +44,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-08-30 23:59:54更新)
+## 博客目录(2024-09-03 10:17:59更新)
+
+[ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
 [windows服务器安装mysql踩坑指北](https://bmqy.net/2672.html)
 
