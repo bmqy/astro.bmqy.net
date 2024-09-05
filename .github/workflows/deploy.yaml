@@ -61,6 +61,15 @@ jobs:
               run: |
                   npm run build
 
+            - name: Upload COS
+              uses: zkqiang/tencent-cos-action@v0.1.0
+              with:
+                args: upload -r ./dist/ ${{secrets.COS_PREFIXKEY}}
+                secret_id: ${{ secrets.COS_SECRET_ID }}
+                secret_key: ${{ secrets.COS_SECRET_KEY }}
+                bucket: ${{ secrets.COS_BUCKET }}
+                region: ${{ secrets.COS_REGION }}
+
             - name: 📂 Deploy Ftp
               uses: SamKirkland/FTP-Deploy-Action@v4.3.4
               with:
@@ -70,15 +79,6 @@ jobs:
                 password: ${{ secrets.FTP_PASSWORD }}
                 local-dir: './dist/'
                 server-dir: ${{secrets.FTP_REMOTE}}
-
-            - name: Upload COS
-              uses: zkqiang/tencent-cos-action@v0.1.0
-              with:
-                args: upload -r ./dist/ ${{secrets.COS_PREFIXKEY}}
-                secret_id: ${{ secrets.COS_SECRET_ID }}
-                secret_key: ${{ secrets.COS_SECRET_KEY }}
-                bucket: ${{ secrets.COS_BUCKET }}
-                region: ${{ secrets.COS_REGION }}
             
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
               run: |
