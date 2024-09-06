@@ -57,7 +57,7 @@ export default defineConfig({
   vite: {
     build: {
       rollupOptions: {
-        external: ['/pagefind/pagefind.js'],
+        external: ['/pagefind/pagefind.js','sharp'],
       },
     },
   },
