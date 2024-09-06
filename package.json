@@ -72,6 +72,8 @@
     "pre-commit": "pnpm exec lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx.astro,md,css,json}": "prettier --write"
+    "src/*.{js,jsx,ts,tsx.astro,md,css,json}": [
+      "prettier --write"
+    ]
   }
 }
