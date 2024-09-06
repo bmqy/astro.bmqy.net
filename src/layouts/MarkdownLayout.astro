@@ -5,9 +5,9 @@ import Footer from '@/components/footer/Footer.astro'
 import { Header } from '@/components/header/Header'
 import { SearchPanel } from '@/components/SearchPanel'
 import { BackToTopFAB } from '@/components/BackToTopFAB'
-import { Provider } from '@/components/provider/Provider'
 import { ToastContainer } from '@/components/ToastContainer'
 import { ModalStack } from '@/components/ui/modal'
+import { Provider } from '@/components/provider/Provider'
 import 'katex/dist/katex.min.css'
 
 interface Props {
@@ -31,13 +31,14 @@ const { title, description, image, mdTitle, mdDescription, mdSlug } = Astro.prop
     client:only="react"
   />
 
-  <Header client:only="react" transition:persist="header" />
+  <Header client:only="react" />
   <main class="relative z-1 pt-16 min-h-main bg-primary">
     <HeadGradient client:idle />
-    <slot />
+    <div class="swup-transition-fade">
+      <slot />
+    </div>
   </main>
   <Footer />
-
   <BackToTopFAB client:only="react" />
   <SearchPanel client:only="react" />
   <ToastContainer client:only="react" />
