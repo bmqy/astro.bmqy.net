@@ -48,7 +48,7 @@ jobs:
             - name: Elog Sync
               run: |
                   npm run elog:sync
-            
+
             - name: 提交notion拉取的文章到GitHub仓库
               run: |
                 echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
@@ -56,7 +56,7 @@ jobs:
                 git config --global user.name "bmqy"
                 git add .
                 git commit -m "ci(blog): 更新文档" -a
-                  
+
             - name: Build
               run: |
                   npm run build
@@ -70,16 +70,16 @@ jobs:
                 bucket: ${{ secrets.COS_BUCKET }}
                 region: ${{ secrets.COS_REGION }}
 
-            - name: 📂 Deploy Ftp
-              uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-              with:
-                server: ${{secrets.FTP_HOST}}
-                port: ${{secrets.FTP_PORT}}
-                username: ${{secrets.FTP_USERNAME}}
-                password: ${{ secrets.FTP_PASSWORD }}
-                local-dir: './dist/'
-                server-dir: ${{secrets.FTP_REMOTE}}
-            
+            # - name: 📂 Deploy Ftp
+            #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+            #   with:
+            #     server: ${{secrets.FTP_HOST}}
+            #     port: ${{secrets.FTP_PORT}}
+            #     username: ${{secrets.FTP_USERNAME}}
+            #     password: ${{ secrets.FTP_PASSWORD }}
+            #     local-dir: './dist/'
+            #     server-dir: ${{secrets.FTP_REMOTE}}
+
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
               run: |
                   pip install --upgrade tencentcloud-sdk-python
