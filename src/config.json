@@ -1,11 +1,11 @@
 {
   "site": {
-    "url": "https://www.bmqy.net",
+    "url": "https://bmqy.net",
     "title": "北门清燕",
     "description": "北门清燕的个人空间，分享生活、记录点滴，给回忆一个绽放的美丽。",
     "keywords": "北门清燕,清思燕想,燕衔春泥,燕美清照,燕坊清作,洗漱必吐,一清二白",
     "lang": "zh-CN",
-    "favicon": "https://www.bmqy.net/images/favicon.ico",
+    "favicon": "https://image.bmqy.net/images/favicon.ico",
     "appleTouchIcon": "https://image.bmqy.net/wp-content/uploads/2018/09/logo-1.png",
     "icp": "京ICP备2021003914号"
   },
@@ -174,7 +174,10 @@
     },
     "umami": {
       "serverUrl": "",
-      "websitId": ""
+      "websiteId": ""
+    },
+    "microsoftClarity": {
+      "projectId": ""
     }
   }
 }

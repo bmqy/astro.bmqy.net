@@ -16,6 +16,7 @@ import { rehypeHeadingIds } from '@astrojs/markdown-remark'
 import { site } from './src/config.json'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+import swup from '@swup/astro'
 
 // https://astro.build/config
 export default defineConfig({
@@ -29,6 +30,12 @@ export default defineConfig({
     react(),
     sitemap({
       filter: (page) => page.indexOf('/posts/') === -1,
+    }),
+    swup({
+      theme: false,
+      animationClass: 'swup-transition-',
+      containers: ['main'],
+      morph: ['[component-export="Provider"]'],
     }),
   ],
   markdown: {
@@ -46,5 +53,12 @@ export default defineConfig({
       rehypeTableBlock,
     ],
     remarkRehype: { footnoteLabel: '参考', footnoteBackLabel: '返回正文' },
+  },
+  vite: {
+    build: {
+      rollupOptions: {
+        external: ['/pagefind/pagefind.js','sharp'],
+      },
+    },
   },
 })
