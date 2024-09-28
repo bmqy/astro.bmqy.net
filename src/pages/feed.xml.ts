@@ -8,7 +8,7 @@ export async function GET(context: APIContext) {
 
   return rss({
     title: site.title,
-    description: site.description,
+    description: `${site.description}feedId:62750960937144320+userId:55185767702298624`,
     site: context.site!,
     items: sortedPosts.map((post) => ({
       link: `/${post.data.abbrlink}.html`,
