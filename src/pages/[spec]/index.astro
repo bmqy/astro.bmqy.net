@@ -8,7 +8,6 @@ import Highlight from '@/components/Highlight.astro'
 import SectionBlock from '@/components/SectionBlock.astro'
 import MarkdownWrapper from '@/components/MarkdownWrapper.astro'
 import FriendList from '@/components/FriendList.astro'
-import ProjectList from '@/components/ProjectList.astro'
 import { ReadingProgress } from '@/components/post/ReadingProgress'
 import { PostToc } from '@/components/post/PostToc'
 import { Comments } from '@/components/comment'
@@ -47,7 +46,6 @@ const isMdContentEmpty = md.body.trim().length === 0
           <p>{md.data.description}</p>
         </header>
         {md.slug === 'friends' && <FriendList />}
-        {md.slug === 'projects' && <ProjectList />}
         {!isMdContentEmpty && (
           <MarkdownWrapper>
             <Content />
